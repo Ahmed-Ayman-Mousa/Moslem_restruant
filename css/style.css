@@ -21,14 +21,3 @@ img{
     display: block;
     margin: auto;
 }
-
-
-/* 
-    background-color => set the background of the element
-    color => set the font color
-    overflow-x => set the what make of overflow x
-    display => set the element [block or inline or inline block]
-    border-top => set the border of element
-    cursor => set the cursor
-    position => set the the element [relative or absolute or fixed or sticky]
-*/
