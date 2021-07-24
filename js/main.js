@@ -4,10 +4,3 @@ function login() {
 function signup() {
     window.location = "../html/signup.htm"
 }
-
-
-/* 
-    function functionName(params){
-        
-    }
-*/
