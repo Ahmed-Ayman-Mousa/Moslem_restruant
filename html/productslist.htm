@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/productslist.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/png">
+    <title>Moslem Mesry Restaurant</title>
+</head>
+<body>
+    <div class="div-bar">
+        <img src="../images/productslist.jpg" alt="restaurant logo">
+        <span id="welcome-massege" style="position: absolute; top: 30px; left: 100px;">Welcome gest user to Moslem Mesry Restaurant</span>
+        <div style="display: inline-block;margin-left: 352px;position: absolute;top: 11px;">
+            <button id="all"onclick="allList()" style="border-bottom: 5px solid red;">الكل</button>
+            <button id="fishes" onclick="fishes()">الاسماك</button>
+            <button id="meat" onclick="meats()">اللحوم</button>
+            <button id="egyptionfood" onclick="egyptionFood()">أكلات مصريه</button>
+            <button id="discounts" onclick="discounts()">الخصومات</button>
+        </div>
+    </div>
+    <div id="menulist" class="menu-list">
+        
+    </div>
+    <script>
+        var e = localStorage.getItem("is-signup");
+        console.log(e);
+        if (e == "true"){
+            var x=localStorage.getItem("name");
+            document.getElementById("welcome-massege").innerHTML = "Welcome "+x+" to Moslem Mesry Restaurant";
+        }
+    </script>
+    <script src="../js/egyption_food.js"></script>
+    <script src="../js/productslist.js"></script>
+    <script src="../js/fisheslist.js"></script>
+    <script src="../js/meatslist.js"></script>
+    <script src="../js/alllist.js"></script>
+    <script src="../js/discounts.js"></script>
+    <script src="../js/todelvery.js"></script>
+</body>
+</html>

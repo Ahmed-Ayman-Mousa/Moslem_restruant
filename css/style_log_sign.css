@@ -1,0 +1,22 @@
+#login-div{
+    width: 425px;
+    height: 452px;
+    margin: auto;
+    margin-top: 129px;
+    background-color: #aaa;
+    border-radius: 44px;
+}
+#style-inputs{
+    position: relative;
+    top: 136px;
+    left: 80px;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+}
+pre{
+    display: inline-block;
+}
+/* 
+    font-size => set the size of font
+*/

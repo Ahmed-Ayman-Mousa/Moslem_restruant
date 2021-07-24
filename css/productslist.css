@@ -1,0 +1,51 @@
+body {
+    color: #fff;
+    background-color: #000;
+    height: 1500px;
+}
+.div-bar {
+    background-color: #1d2225;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.div-bar img {
+    width: 77px;
+    height: 65px;
+    border-radius: 50%;
+}
+.item {
+    width: 312px;
+    height: 367px;
+    display: inline-block;
+    border: 1px solid;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.item img {
+    width: 293px;
+    height: 252px;
+    margin-left: 9px;
+}
+.item p {
+    margin-inline-start: 88px;
+    margin-block-start: 7px;
+    font-size: 28px;
+    font-style: italic;
+}
+.menu-list {
+    margin-left: 93px;
+    margin-top: 24px;
+    height: 576px;
+    width: 85%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 102px;
+    height: 45px;
+    cursor: pointer;
+}

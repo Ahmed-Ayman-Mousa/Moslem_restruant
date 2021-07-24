@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="../css/delvery.css">
+    <title>Moslem Mesry Restaurant</title>
+</head>
+<body>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7291202.857007517!2d35.37184738790799!3d26.83493778143627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14368976c35c36e9%3A0x2c45a00925c4c444!2z2YXYtdix!5e0!3m2!1sar!2seg!4v1624621940493!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="form">
+        <input type="text" id="phone-number">
+        <span>رقم التلفون</span>
+        <br>
+        <br>
+        <br>
+        <input type="text" id="address">
+        <span>العنوان</span>
+        <br>
+        <br>
+        <label for="pad-py-1" onclick="checkRadio()">الدفع الالكتروني</label>
+        <input type="radio" name="padpy" id="pad-py-1" onclick="checkRadio()">
+        <br>
+        <div id="card" hidden>
+            <input type="text" id="card-number">
+            <span>رقم البطاقه</span>
+            <br>
+            <input type="password" id="card-password">
+            <span>الرقم السري</span>
+        </div>
+        <br>
+        <label for="pad-py-2" onclick="checkRadio()">الدفع النقدي</label>
+        <input type="radio" name="padpy" id="pad-py-2" checked  onclick="checkRadio()">
+        <br>
+        <br>
+        <br>
+        <button onclick="addTaleb()">ارسال الطلب</button>
+        <span id="name-price" style="font-size: 13px;"></span>
+    </div>
+    <script src="../js/delvery.js"></script>
+</body>
+</html>
