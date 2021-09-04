@@ -3,14 +3,16 @@ body{
     color: white;
     overflow-x: hidden;
 }
-button{
+a{
     display: block;
     background-color: transparent;
     color: white;
-    border-top: none;
-    border-bottom: none;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    text-align: center;
     width: 309px;
     cursor: pointer;
+    text-decoration: none;
 }
 div{
     position: relative;
